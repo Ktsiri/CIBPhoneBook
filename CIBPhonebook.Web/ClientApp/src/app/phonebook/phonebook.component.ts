@@ -26,21 +26,18 @@ export class PhonebookComponent implements OnInit {
       () => console.log('phonebook data:', this.data)
     );
   }
-  /*public GetPhoneBookBySearch(fullname, phonenumber) {
-    this._phonebookservice.GetPhoneBookBySearch(fullname, phonenumber).subscribe(
+  public GetPhoneBookByName(name) {
+    this._phonebookservice.getPhoneEntriesByName(name).subscribe(
       phonebookData => {
         this.data = phonebookData;
       },
       error => alert(error),
       () => console.log('phonebook by search data:', this.data)
     );
-  }*/
-  public CreatePhoneRecord(fullname, surname, phonenumber) {
-    alert(fullname);
-    var phonebook = new PhonebookDto(fullname, surname, phonenumber);
-    this._phonebookservice.AddPhoneBook(phonebook);
-
-
-}
+  }
+  public CreatePhoneRecord(firstname, surname, phonenumber) {
+    var phonebook = new PhonebookDto(firstname, surname, phonenumber);
+    this._phonebookservice.AddPhoneBook(phonebook).subscribe();
+  }
 
 }
