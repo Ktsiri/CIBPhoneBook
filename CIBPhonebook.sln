@@ -1,0 +1,47 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIBPhonebook.Domain.Tests", "CIBPhonebook.Domain.Tests\CIBPhonebook.Domain.Tests.csproj", "{C14CAD36-0AC2-4F6E-9512-999C56AD0073}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIBPhonebook.Domain", "CIBPhonebook.Domain\CIBPhonebook.Domain.csproj", "{0C4543FC-4F73-4689-A701-91AB68E8117E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIBPhonebook.Domain.EF", "CIBPhonebook.Domain.EF\CIBPhonebook.Domain.EF.csproj", "{E5411E95-4712-49A2-9E25-3FD71AA9DDE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIBPhonebook.Web", "CIBPhonebook.Web\CIBPhonebook.Web.csproj", "{A0CDEEEE-E323-45D1-9C7D-B833550BEB51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIBPhonebook.Common", "CIBPhonebook.Common\CIBPhonebook.Common.csproj", "{A37D3198-A712-41D9-9ECB-14DDA63A6EAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIBPhonebook.Dtos", "CIBPhonebook.Dtos\CIBPhonebook.Dtos.csproj", "{2761142F-B8D6-4E87-8D67-26254F34C577}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C14CAD36-0AC2-4F6E-9512-999C56AD0073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C14CAD36-0AC2-4F6E-9512-999C56AD0073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C14CAD36-0AC2-4F6E-9512-999C56AD0073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C14CAD36-0AC2-4F6E-9512-999C56AD0073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C4543FC-4F73-4689-A701-91AB68E8117E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C4543FC-4F73-4689-A701-91AB68E8117E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C4543FC-4F73-4689-A701-91AB68E8117E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C4543FC-4F73-4689-A701-91AB68E8117E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5411E95-4712-49A2-9E25-3FD71AA9DDE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5411E95-4712-49A2-9E25-3FD71AA9DDE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5411E95-4712-49A2-9E25-3FD71AA9DDE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5411E95-4712-49A2-9E25-3FD71AA9DDE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0CDEEEE-E323-45D1-9C7D-B833550BEB51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0CDEEEE-E323-45D1-9C7D-B833550BEB51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0CDEEEE-E323-45D1-9C7D-B833550BEB51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0CDEEEE-E323-45D1-9C7D-B833550BEB51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A37D3198-A712-41D9-9ECB-14DDA63A6EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A37D3198-A712-41D9-9ECB-14DDA63A6EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A37D3198-A712-41D9-9ECB-14DDA63A6EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A37D3198-A712-41D9-9ECB-14DDA63A6EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2761142F-B8D6-4E87-8D67-26254F34C577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2761142F-B8D6-4E87-8D67-26254F34C577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2761142F-B8D6-4E87-8D67-26254F34C577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2761142F-B8D6-4E87-8D67-26254F34C577}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
